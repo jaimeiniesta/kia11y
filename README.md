@@ -77,6 +77,8 @@ iex> response["violations"]
 
 By default, Kia11y will use the demo server for AccessLint Service at https://accesslint-service-demo.herokuapp.com/ but you're encouraged to install your own instances of the server and use them instead. The demo server is just intended for, you guessed it, demo purposes and might be down or overwhelmed.
 
+[AccessLint Service](https://github.com/jaimeiniesta/accesslint-service) can be installed for free with a click on Heroku.
+
 To use your own servers, pass an array with their URLs and a random one will be picked for each request (poor man's load balancer):
 
 ```elixir
