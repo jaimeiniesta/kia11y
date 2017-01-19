@@ -3,7 +3,7 @@ defmodule Kia11y.Mixfile do
 
   def project do
     [app: :kia11y,
-     version: "0.1.0",
+     version: "0.1.1",
      elixir: "~> 1.3",
      description: "Elixir client for the AccessLint Service A11Y Checker",
      package: package,
@@ -31,7 +31,7 @@ defmodule Kia11y.Mixfile do
   defp deps do
     [
       { :httpoison, "~> 0.9" },
-      { :poison,    "~> 3.0" },
+      { :poison,    "~> 2.2 or ~> 3.0" },
       { :ex_doc,    ">= 0.0.0", only: :dev},
       { :mock,      "~> 0.1", only: :test}
     ]
