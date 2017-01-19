@@ -1,5 +1,9 @@
 # Kia11y
 
+[![Build Status](https://travis-ci.org/jaimeiniesta/kia11y.svg?branch=master)](https://travis-ci.org/jaimeiniesta/kia11y)
+[![Hex.pm](https://img.shields.io/hexpm/v/kia11y.svg)](https://hex.pm/packages/kia11y)
+[![Deps Status](https://beta.hexfaktor.org/badge/all/github/jaimeiniesta/kia11y.svg)](https://beta.hexfaktor.org/github/jaimeiniesta/kia11y)
+
 Kia11y is an Elixir client for the [AccessLint Service](https://github.com/jaimeiniesta/accesslint-service), which is a web service for [accesslint-cli](https://github.com/accesslint/accesslint-cli.js), which is a wrapper for the awesome [axe-core](https://github.com/dequelabs/axe-core) Accessibility Engine.
 
 In short, Kia11y aims to be the simplest way to integrate A11Y checking in Elixir projects.
